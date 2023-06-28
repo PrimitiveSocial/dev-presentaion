@@ -1,3 +1,7 @@
 <template>
-    <h1 class="text-3xl text-amber-500">hello world</h1>
+    <terminal></terminal>
 </template>
+
+<script setup>
+import Terminal from './components/Terminal.vue'
+</script>
