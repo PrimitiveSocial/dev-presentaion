@@ -16,7 +16,7 @@
                         <span class="text-yellow-100">@primitive:~$</span>
                         <span class="ml-2 text-green-300">{{ command }}</span>
                     </div>
-                    <component :is="previewCommand(command)" class="my-4"/>
+                    <component :is="previewCommand(command)" class="my-1"/>
                 </div>
 
                 <!-- Command input -->
@@ -41,6 +41,7 @@
 import { ref, onMounted } from 'vue'
 import HelpCommand from './HelpCommand.vue'
 import ClearCommand from './ClearCommand.vue'
+import NotFoundCommand from './NotFoundCommand.vue'
 
 const command = ref('')
 const cliInput = ref()
@@ -58,7 +59,7 @@ const parseCommand = () => {
 
 const previewCommand = command => {
     const foundCommand = availableCommands.find(item => item.command === command)
-    return foundCommand ? foundCommand.component : null
+    return foundCommand ? foundCommand.component : NotFoundCommand
 }
 
 onMounted( () => cliInput.value.focus() )
