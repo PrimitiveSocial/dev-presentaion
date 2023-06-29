@@ -29,8 +29,8 @@
                         class="ml-2 text-green-500 placeholder-gray-500 bg-transparent border-none w-full focus:ring-0 focus:outline-none"
                         placeholder="type help and hit enter to get started."
                         @keyup.enter="parseCommand"
-                        @keydown.up="loadPreviousCommandFromLocalStorage"
-                        @keydown.down="loadNextCommandFromLocalStorage"
+                        @keyup.up="loadPreviousCommandFromLocalStorage"
+                        @keyup.down="loadNextCommandFromLocalStorage"
                     />
                 </div>
             </div>
