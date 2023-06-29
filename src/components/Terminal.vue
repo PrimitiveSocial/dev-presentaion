@@ -29,6 +29,8 @@
                         class="ml-2 text-green-500 placeholder-gray-500 bg-transparent border-none w-full focus:ring-0 focus:outline-none"
                         placeholder="type help and hit enter to get started."
                         @keyup.enter="parseCommand"
+                        @keydown.up="loadPreviousCommandFromLocalStorage"
+                        @keydown.down="loadNextCommandFromLocalStorage"
                     />
                 </div>
             </div>
@@ -38,7 +40,7 @@
 </template>
 
 <script setup>
-import { ref, onMounted } from 'vue'
+import { ref, onMounted, watchEffect } from 'vue'
 import HelpCommand from './HelpCommand.vue'
 import ClearCommand from './ClearCommand.vue'
 import NotFoundCommand from './NotFoundCommand.vue'
@@ -46,6 +48,7 @@ import NotFoundCommand from './NotFoundCommand.vue'
 const command = ref('')
 const cliInput = ref()
 const commandsHistory = ref([])
+const localStorageCommandIndex = ref(-1)
 
 const availableCommands = [
     { command: 'help', component: HelpCommand },
@@ -68,6 +71,36 @@ const storeCommandInLocalStorage = command => {
     storedCommands.push(command)
     localStorage.setItem('commandHistory', JSON.stringify(storedCommands))
 }
+
+const getLocalStorageCommands = () => {
+    return JSON.parse(localStorage.getItem('commandHistory')) || []
+}
+
+const loadPreviousCommandFromLocalStorage = () => {
+    const storedCommands = getLocalStorageCommands()
+
+    if (localStorageCommandIndex.value > 0) {
+        localStorageCommandIndex.value--
+        command.value = storedCommands[localStorageCommandIndex.value]
+    }
+}
+
+const loadNextCommandFromLocalStorage = () => {
+    const storedCommands = getLocalStorageCommands()
+
+    if (localStorageCommandIndex.value < storedCommands.length - 1) {
+        localStorageCommandIndex.value++
+        command.value = storedCommands[localStorageCommandIndex.value]
+    } else if (localStorageCommandIndex.value === storedCommands.length - 1) {
+        localStorageCommandIndex.value++
+        command.value = ''
+    }
+}
+
+watchEffect(() => {
+    const storedCommands = getLocalStorageCommands()
+    localStorageCommandIndex.value = storedCommands.length
+})
 
 onMounted( () => {
     localStorage.removeItem('commandHistory')
