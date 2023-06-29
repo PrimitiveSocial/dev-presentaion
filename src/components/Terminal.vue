@@ -53,6 +53,7 @@ const availableCommands = [
 ]
 
 const parseCommand = () => {
+    storeCommandInLocalStorage(command.value)
     command.value === 'clear' ? commandsHistory.value = [] : commandsHistory.value.push(command.value)
     command.value = ''
 }
@@ -62,5 +63,14 @@ const previewCommand = command => {
     return foundCommand ? foundCommand.component : NotFoundCommand
 }
 
-onMounted( () => cliInput.value.focus() )
+const storeCommandInLocalStorage = command => {
+    const storedCommands = JSON.parse(localStorage.getItem('commandHistory')) || []
+    storedCommands.push(command)
+    localStorage.setItem('commandHistory', JSON.stringify(storedCommands))
+}
+
+onMounted( () => {
+    localStorage.removeItem('commandHistory')
+    cliInput.value.focus()
+})
 </script>
