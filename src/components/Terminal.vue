@@ -40,17 +40,19 @@
 <script setup>
 import { ref, onMounted } from 'vue'
 import HelpCommand from './HelpCommand.vue'
+import ClearCommand from './ClearCommand.vue'
 
 const command = ref('')
 const cliInput = ref()
 const commandsHistory = ref([])
 
 const availableCommands = [
-    { command: 'help', component: HelpCommand }
+    { command: 'help', component: HelpCommand },
+    { command: 'clear', component: ClearCommand },
 ]
 
 const parseCommand = () => {
-    commandsHistory.value.push(command.value)
+    command.value === 'clear' ? commandsHistory.value = [] : commandsHistory.value.push(command.value)
     command.value = ''
 }
 
