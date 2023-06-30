@@ -1,5 +1,5 @@
 <template>
-    <p>Available commands:</p>
+    <p class="my-4">Available commands:</p>
     <div class="space-y-3 my-4 px-6">
         <div class="flex items-center gap-2">
             <information-circle-icon class="w-5 h-5"></information-circle-icon>

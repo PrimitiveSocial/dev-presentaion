@@ -41,6 +41,7 @@
 
 <script setup>
 import { ref, onMounted, watchEffect } from 'vue'
+import ElieCommand from './ElieCommand.vue'
 import HelpCommand from './HelpCommand.vue'
 import ClearCommand from './ClearCommand.vue'
 import NotFoundCommand from './NotFoundCommand.vue'
@@ -52,6 +53,7 @@ const localStorageCommandIndex = ref(-1)
 
 const availableCommands = [
     { command: 'help', component: HelpCommand },
+    { command: 'elie', component: ElieCommand },
     { command: 'clear', component: ClearCommand },
 ]
 
