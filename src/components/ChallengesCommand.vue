@@ -22,6 +22,10 @@
                     <span>Translating dev talk to none devs</span>
                 </p>
                 <p class="flex gap-4">
+                    <language-icon class="w-6 h-6"></language-icon>
+                    <span class="text-orange-500">Working on old spaghetti codebase (uhum vofspace)</span>
+                </p>
+                <p class="flex gap-4">
                     <code-bracket-icon class="w-6 h-6"></code-bracket-icon>
                     <span>Keep up with the ever evolving tech stacks</span>
                 </p>
@@ -48,5 +52,5 @@
 </template>
 
 <script setup>
-import { ClockIcon, NoSymbolIcon, ArrowPathIcon, MegaphoneIcon, CodeBracketIcon, ComputerDesktopIcon } from '@heroicons/vue/24/solid'
+import { ClockIcon, NoSymbolIcon, ArrowPathIcon, MegaphoneIcon, CodeBracketIcon, ComputerDesktopIcon, LanguageIcon } from '@heroicons/vue/24/solid'
 </script>

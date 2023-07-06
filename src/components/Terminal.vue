@@ -51,6 +51,7 @@ import WorkflowCommand from './WorkflowCommand.vue'
 import TeammatesCommand from './TeammatesCommand.vue'
 import ChallengesCommand from './ChallengesCommand.vue'
 import NotFoundCommand from './NotFoundCommand.vue'
+import TriviaComponent from './TriviaComponent.vue'
 
 const command = ref('')
 const cliInput = ref()
@@ -67,6 +68,7 @@ const availableCommands = [
     { command: 'day', component: DayCommand },
     { command: 'challenges', component: ChallengesCommand },
     { command: 'teammates', component: TeammatesCommand },
+    { command: 'trivia', component: TriviaComponent },
 ]
 
 const parseCommand = () => {
