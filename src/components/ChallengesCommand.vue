@@ -4,7 +4,7 @@
             <h3 class="capitalize mb-6 bg-gradient-to-r from-cyan-600 to-gray-800 bg-opacity-50 px-4 py-3 rounded-lg">
                 Challenges
             </h3>
-            <div class="space-y-2">
+            <div class="space-y-4">
                 <p class="flex gap-4">
                     <clock-icon class="w-6 h-6"></clock-icon>
                     <span>Time estimates</span>
