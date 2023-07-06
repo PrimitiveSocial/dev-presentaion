@@ -19,7 +19,7 @@
             </div>
 
             <ul class="leading-8 text-sm mt-8 bg-slate-700 p-4 bg-opacity-60 rounded-lg space-y-2">
-                <li>Uses HTML, CSS, Tailwind (uhum Josh) & Javascript</li>
+                <li>Uses HTML, CSS, Tailwind <span class="text-yellow-400">(uhum Josh)</span> & Javascript</li>
                 <li>The browser's console is his best friend</li>
                 <li>Utilize assets: images, videos & fonts</li>
                 <li>Built using responsive, multi-device support. It’s 2023.</li>
