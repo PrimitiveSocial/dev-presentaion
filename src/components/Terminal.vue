@@ -12,8 +12,8 @@
                 <!-- Commands history and preview -->
                 <div v-for="(command,index) in commandsHistory" :key="index">
                     <div class="flex">
-                        <span class="text-sky-300">devs</span>
-                        <span class="text-green-500">@primitive:~$</span>
+                        <span class="text-pink-300">devs</span>
+                        <span class="text-green-300">@primitive:~$</span>
                         <span class="ml-2 text-yellow-400">{{ command }}</span>
                     </div>
                     <component :is="previewCommand(command)" class="my-1"/>
@@ -21,8 +21,8 @@
 
                 <!-- Command input -->
                 <div class="flex">
-                    <span class="text-sky-300">devs</span>
-                    <span class="text-green-500">@primitive:~$</span>
+                    <span class="text-pink-300">devs</span>
+                    <span class="text-green-300">@primitive:~$</span>
                     <input
                         ref="cliInput"
                         v-model="command"
