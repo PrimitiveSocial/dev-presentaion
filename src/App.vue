@@ -4,7 +4,7 @@
 
         <div class="fixed bottom-4 flex justify-between gap-8 w-3/4 text-sm" :class="{ hidden: isFullscreen }">
             <button @click="toggle" class="flex items-center gap-2">
-                <arrows-pointing-out-icon class="w-6 h-6"></arrows-pointing-out-icon>Enter full screen
+                <arrows-pointing-out-icon class="w-6 h-6"></arrows-pointing-out-icon>Click here to enter full screen
             </button>
 
             <div class="flex items-center gap-2">

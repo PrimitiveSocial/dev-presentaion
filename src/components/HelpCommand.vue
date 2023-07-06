@@ -27,8 +27,8 @@
             <span class="text-gray-400">Show information about the development workflow</span>
         </div>
         <div class="flex items-center gap-2">
-            <shopping-cart-icon class="w-5 h-5"></shopping-cart-icon>
-            <span class="text-yellow-400">toolkit</span>
+            <bell-slash-icon class="w-5 h-5"></bell-slash-icon>
+            <span class="text-yellow-400">day</span>
             <span class="text-gray-400">A day in a developer's life</span>
         </div>
         <div class="flex items-center gap-2">
@@ -40,5 +40,5 @@
 </template>
 
 <script setup>
-import { InformationCircleIcon, UserIcon, CircleStackIcon, SignalSlashIcon, EyeSlashIcon, ShoppingCartIcon } from '@heroicons/vue/24/solid'
+import { InformationCircleIcon, UserIcon, CircleStackIcon, EyeSlashIcon, BellSlashIcon } from '@heroicons/vue/24/solid'
 </script>

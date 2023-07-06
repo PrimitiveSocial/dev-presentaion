@@ -41,6 +41,7 @@
 <script setup>
 import ElieCommand from './ElieCommand.vue'
 import HelpCommand from './HelpCommand.vue'
+import DayCommand from './DayCommand.vue'
 import ClearCommand from './ClearCommand.vue'
 import MichaelCommand from './MichaelCommand.vue'
 import MatthewCommand from './MatthewCommand.vue'
@@ -60,6 +61,7 @@ const availableCommands = [
     { command: 'michael', component: MichaelCommand },
     { command: 'matthew', component: MatthewCommand },
     { command: 'workflow', component: WorkflowCommand },
+    { command: 'day', component: DayCommand },
 ]
 
 const parseCommand = () => {
