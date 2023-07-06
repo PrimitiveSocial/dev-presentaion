@@ -122,4 +122,5 @@ onMounted( () => {
     localStorage.removeItem('commandHistory')
     cliInput.value.focus()
 })
+
 </script>
