@@ -21,8 +21,9 @@
             </h3>
             <ul class="leading-8 list-disc ml-6">
                 <li>Interned at Primitive (May 2019)</li>
-                <li>Part Time at Primitive (July 2019)</li>
-                <li>Full Time at Primitive (Jan 2020)</li>
+                <li>Part-time at Primitive (July 2019)</li>
+                <li>Full-time at Primitive (Jan 2020)</li>
+                <li>Does front-end development</li>
                 <li>Input, Strategic, Restorative, Achiever, Futuristic</li>
             </ul>
         </div>
