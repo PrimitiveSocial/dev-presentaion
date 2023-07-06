@@ -1,8 +1,8 @@
 <template>
-    <UseFullscreen v-slot="{ toggle, isFullscreen }" class="w-2/3 h-3/4">
+    <UseFullscreen v-slot="{ toggle, isFullscreen }" class="w-3/4 h-3/4">
         <terminal></terminal>
 
-        <div class="fixed bottom-4 flex justify-between gap-8 w-2/3 text-sm" :class="{ hidden: isFullscreen }">
+        <div class="fixed bottom-4 flex justify-between gap-8 w-3/4 text-sm" :class="{ hidden: isFullscreen }">
             <button @click="toggle" class="flex items-center gap-2">
                 <arrows-pointing-out-icon class="w-6 h-6"></arrows-pointing-out-icon>Enter full screen
             </button>
