@@ -44,6 +44,7 @@ import HelpCommand from './HelpCommand.vue'
 import ClearCommand from './ClearCommand.vue'
 import MichaelCommand from './MichaelCommand.vue'
 import MatthewCommand from './MatthewCommand.vue'
+import WorkflowCommand from './WorkflowCommand.vue'
 import { ref, onMounted, watchEffect } from 'vue'
 import NotFoundCommand from './NotFoundCommand.vue'
 
@@ -58,6 +59,7 @@ const availableCommands = [
     { command: 'clear', component: ClearCommand },
     { command: 'michael', component: MichaelCommand },
     { command: 'matthew', component: MatthewCommand },
+    { command: 'workflow', component: WorkflowCommand },
 ]
 
 const parseCommand = () => {
