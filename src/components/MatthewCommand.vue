@@ -6,7 +6,7 @@
             </h3>
             <div class="flex items-center gap-8">
                 <img src="/matthew.png" class="w-32 rounded-full" alt="Matthew"/>
-                <ul class="text-sm leading-8 list-disc">
+                <ul class="leading-8 list-disc">
                     <li>From Concordia KS (Living here now)</li>
                     <li>Graduated Concordia High school (2017)</li>
                     <li>Graduated from K-State (May 2020)</li>
@@ -19,10 +19,10 @@
             <h3 class="capitalize mb-6 bg-gradient-to-r from-sky-900 to-gray-800 bg-opacity-20 px-4 py-3 rounded-lg">
                 My primitive journey
             </h3>
-            <ul class="text-sm leading-8 list-disc ml-6">
-                <li>interned at Primitive (May 2019)</li>
-                <li>part Time at Primitive (July 2019)</li>
-                <li>full Time at Primitive (Jan 2020)</li>
+            <ul class="leading-8 list-disc ml-6">
+                <li>Interned at Primitive (May 2019)</li>
+                <li>Part Time at Primitive (July 2019)</li>
+                <li>Full Time at Primitive (Jan 2020)</li>
                 <li>Input, Strategic, Restorative, Achiever, Futuristic</li>
             </ul>
         </div>

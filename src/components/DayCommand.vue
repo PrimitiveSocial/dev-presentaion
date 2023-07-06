@@ -20,7 +20,7 @@
                 <li>Check clickup notifications, calendar and emails</li>
                 <li>Give time estimates</li>
                 <li>Help with any dev related tasks that come up</li>
-                <li>Make a quality Meme every now and then (Matthew)</li>
+                <li class="text-pink-400">Make a quality memes every now and then (Matthew)</li>
             </ul>
         </div>
         <div class="w-2/5">
