@@ -39,6 +39,8 @@
 </template>
 
 <script setup>
+import { ref, onMounted, watchEffect } from 'vue'
+
 import ElieCommand from './ElieCommand.vue'
 import HelpCommand from './HelpCommand.vue'
 import DayCommand from './DayCommand.vue'
@@ -46,8 +48,8 @@ import ClearCommand from './ClearCommand.vue'
 import MichaelCommand from './MichaelCommand.vue'
 import MatthewCommand from './MatthewCommand.vue'
 import WorkflowCommand from './WorkflowCommand.vue'
+import TeammatesCommand from './TeammatesCommand.vue'
 import ChallengesCommand from './ChallengesCommand.vue'
-import { ref, onMounted, watchEffect } from 'vue'
 import NotFoundCommand from './NotFoundCommand.vue'
 
 const command = ref('')
@@ -64,6 +66,7 @@ const availableCommands = [
     { command: 'workflow', component: WorkflowCommand },
     { command: 'day', component: DayCommand },
     { command: 'challenges', component: ChallengesCommand },
+    { command: 'teammates', component: TeammatesCommand },
 ]
 
 const parseCommand = () => {
