@@ -13,8 +13,8 @@
                 <div v-for="(command,index) in commandsHistory" :key="index">
                     <div class="flex">
                         <span class="text-sky-300">devs</span>
-                        <span class="text-yellow-100">@primitive:~$</span>
-                        <span class="ml-2 text-green-300">{{ command }}</span>
+                        <span class="text-green-500">@primitive:~$</span>
+                        <span class="ml-2 text-yellow-400">{{ command }}</span>
                     </div>
                     <component :is="previewCommand(command)" class="my-1"/>
                 </div>
@@ -22,11 +22,11 @@
                 <!-- Command input -->
                 <div class="flex">
                     <span class="text-sky-300">devs</span>
-                    <span class="text-yellow-100">@primitive:~$</span>
+                    <span class="text-green-500">@primitive:~$</span>
                     <input
                         ref="cliInput"
                         v-model="command"
-                        class="ml-2 text-green-500 placeholder-gray-500 bg-transparent border-none w-full focus:ring-0 focus:outline-none"
+                        class="ml-2 text-yellow-400 placeholder-gray-500 bg-transparent border-none w-full focus:ring-0 focus:outline-none"
                         placeholder="type help and hit enter to get started."
                         @keyup.enter="parseCommand"
                         @keyup.up="loadPreviousCommandFromLocalStorage"
