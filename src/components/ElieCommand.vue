@@ -10,16 +10,20 @@
                     <li>13 years in web development</li>
                     <li>Fully remote since 2017</li>
                     <li>Married, father of 2 baby girls</li>
-                    <li>responsibility, relator, arranger, context, restorative </li>
-                    <li>Madera/Quext, Vofspace, Sam</li>
                 </ul>
             </div>
         </div>
-        <div>
+        <div class="min-w-[380px]">
             <h3 class="lowercase mb-6 bg-gradient-to-r from-sky-900 to-gray-800 bg-opacity-20 px-4 py-3 rounded-lg">
-                How I started @primitive
+                My prim journey
             </h3>
-            <img src="/doug.png" class="h-64 rounded-2xl" alt="Doug"/>
+            <ul class="text-sm leading-8">
+                <li>started in september 2019</li>
+                <li>does both back-end and front-end development</li>
+                <li>responsibility, relator, arranger, context, restorative </li>
+                <li>notable projects: Madera/Quext, Vofspace, Sam</li>
+            </ul>
+            <img src="/doug.png" class="h-64 rounded-2xl mt-8" alt="Doug"/>
         </div>
     </div>
 </template>

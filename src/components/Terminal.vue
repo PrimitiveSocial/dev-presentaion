@@ -16,7 +16,7 @@
                         <span class="text-green-300">@primitive:~$</span>
                         <span class="ml-2 text-yellow-400">{{ command }}</span>
                     </div>
-                    <component :is="previewCommand(command)" class="my-1"/>
+                    <component :is="previewCommand(command)" class="my-8"/>
                 </div>
 
                 <!-- Command input -->
