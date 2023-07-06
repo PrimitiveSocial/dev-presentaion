@@ -5,13 +5,11 @@
             <div class="flex items-center space-x-4">
                 <img src="/elie.png" class="w-32 rounded-full" alt="Elie"/>
                 <ul class="text-sm leading-8">
-                    <li>From Lebanon</li>
-                    <li>Studied computer science</li>
-                    <li>13 years in web development</li>
-                    <li>Fully remote since 2017</li>
-                    <li>Married, father of 2 baby girls</li>
-                    <li>responsibility, relator, arranger, context, restorative </li>
-                    <li>Madera/Quext, Vofspace, Sam</li>
+                    <li>From Livingston, NJ</li>
+                    <li>Studied graphic design @ Montclair State University, NJ</li>
+                    <li>Worked as a graphic & UI/UX designer for 8 years</li>
+                    <li>Got bored of design but wanted to use my skills as a developer</li>
+                    <li>Adaptability, Input, Includer, Arranger, Positivity </li>
                 </ul>
             </div>
         </div>
@@ -19,7 +17,9 @@
             <h3 class="lowercase mb-6 bg-gradient-to-r from-sky-900 to-gray-800 bg-opacity-20 px-4 py-3 rounded-lg">
                 How I started @primitive
             </h3>
-            <img src="/doug.png" class="h-64 rounded-2xl" alt="Doug"/>
+            <ul class="text-sm leading-8">
+                <li>Started as a front-end developer in 2019</li>
+            </ul>
         </div>
     </div>
 </template>
