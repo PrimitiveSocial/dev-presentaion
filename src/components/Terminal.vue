@@ -1,5 +1,5 @@
 <template>
-    <div class="w-2/3 h-3/4">
+    <div class="w-full h-full">
         <div class="p-4 shadow-lg bg-gray-800 rounded-lg leading-normal overflow-scroll h-full">
             <!-- terminal header bar -->
             <div class="flex items-center">
@@ -34,16 +34,15 @@
                     />
                 </div>
             </div>
-
         </div>
     </div>
 </template>
 
 <script setup>
-import { ref, onMounted, watchEffect } from 'vue'
 import ElieCommand from './ElieCommand.vue'
 import HelpCommand from './HelpCommand.vue'
 import ClearCommand from './ClearCommand.vue'
+import { ref, onMounted, watchEffect } from 'vue'
 import NotFoundCommand from './NotFoundCommand.vue'
 
 const command = ref('')
