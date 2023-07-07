@@ -43,6 +43,7 @@
             <ul class="leading-8 mt-8 bg-slate-700 p-4 bg-opacity-60 rounded-lg space-y-2">
                 <li>Implementing Designs (nailing a cool animation)</li>
                 <li>Collaborating with our designers, copywriters, and AM’s</li>
+                <li class="text-pink-500">Creating tools that helps other teammates workflows and efficiency</li>
                 <li>Dev meetings (when we have them)</li>
                 <li>Learning new stuff</li>
                 <li class="text-orange-500">Watching the dev team kick nukes into the stratosphere in kickball</li>
