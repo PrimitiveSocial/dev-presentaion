@@ -1,4 +1,4 @@
-import { createApp } from './../node_modules/.vite/deps/vue.js'
+import { createApp } from 'vue'
 import './style.css'
 import App from './App.vue'
 
