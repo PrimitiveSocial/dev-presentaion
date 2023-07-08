@@ -37,18 +37,24 @@
             <span class="text-gray-400">Share developers wins and struggles</span>
         </div>
 
-      <div class="flex items-center gap-2">
-        <heart-icon class="w-5 h-5"></heart-icon>
-        <span class="text-yellow-400">favorites</span>
-        <span class="text-gray-400">Our favorite parts of development</span>
-      </div>
+        <div class="flex items-center gap-2">
+          <heart-icon class="w-5 h-5"></heart-icon>
+          <span class="text-yellow-400">favorites</span>
+          <span class="text-gray-400">Our favorite parts of development</span>
+        </div>
 
         <div class="flex items-center gap-2">
             <users-icon class="w-5 h-5"></users-icon>
             <span class="text-yellow-400">teammates</span>
             <span class="text-gray-400">Discover how you can help a developer</span>
         </div>
-
+        
+        <div class="flex items-center gap-2">
+          <question-mark-circle-icon class="w-5 h-5"></question-mark-circle-icon>
+          <span class="text-yellow-400">trivia</span>
+          <span class="text-gray-400">Test your knowledge</span>
+        </div>
+        
         <div class="flex items-center gap-2">
             <eye-slash-icon class="w-5 h-5"></eye-slash-icon>
             <span class="text-yellow-400">clear</span>
@@ -58,5 +64,5 @@
 </template>
 
 <script setup>
-import { InformationCircleIcon, UserIcon, CircleStackIcon, EyeSlashIcon, BellSlashIcon, TrophyIcon, UsersIcon, HeartIcon } from '@heroicons/vue/24/solid'
+import { InformationCircleIcon, UserIcon, CircleStackIcon, EyeSlashIcon, BellSlashIcon, TrophyIcon, UsersIcon, HeartIcon, QuestionMarkCircleIcon } from '@heroicons/vue/24/solid'\
 </script>

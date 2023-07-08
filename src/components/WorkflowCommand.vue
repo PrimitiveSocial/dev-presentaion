@@ -24,7 +24,6 @@
                 <li> The browser's console / inspector is his best friend. This tool allows us to monitor front end code in real time. We can also make adjustments on the fly and they are visible right away. </li>
                 <li>Implement assets: images, videos & fonts</li>
                 <li>Build using responsive support / multi-device support. It’s 2023 and you can expect a website visitor to be using various devices. </li>
-                <li>We work closely with back-end developers, designers & copy writers. </li>
             </ul>
         </div>
         <div class="w-1/2 pl-5">
