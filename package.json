@@ -13,7 +13,8 @@
     "@vueuse/components": "^10.2.1",
     "@vueuse/core": "^10.2.1",
     "vite-plugin-commonjs": "^0.8.0",
-    "vue": "^3.3.4"
+    "vue": "^3.3.4",
+    "vue-highlight-code": "^0.1.16"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.2.3",

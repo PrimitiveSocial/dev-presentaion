@@ -3,7 +3,14 @@
     <div class="flex gap-8 justify-between">
         <div class="w-2/5">
             <h3 class="capitalize mb-6 bg-gradient-to-r from-sky-900 to-gray-800 bg-opacity-50 px-4 py-3 rounded-lg">Question {{ question }}</h3>
-            <div class="flex items-center gap-8" v-html="activeQuestion.module"></div>
+            <HighCode v-if="activeQuestion.module.isCode"
+                class="code"
+                :codeValue="activeQuestion.module.value"
+                theme="dark"
+                langName="javascript"
+            />
+          <div class="flex items-center gap-8" v-else v-html="activeQuestion.module.value"></div>
+
         </div>
         <div class="w-2/5">
             <h3 class="capitalize mb-6 bg-gradient-to-r from-sky-900 to-gray-800 bg-opacity-20 px-4 py-3 rounded-lg">
@@ -25,7 +32,8 @@
 
 <script setup>
 import {computed, ref} from "vue";
-
+import { HighCode } from 'vue-highlight-code';
+import 'vue-highlight-code/dist/style.css';
 import { questions } from "./TriviaQuestions.js"
 
 let question = ref(1);
