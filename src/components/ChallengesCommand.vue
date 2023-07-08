@@ -64,7 +64,5 @@
 </template>
 
 <script setup>
-
 import { ClockIcon, NoSymbolIcon, ArrowPathIcon, MegaphoneIcon, CodeBracketIcon, ComputerDesktopIcon, LanguageIcon, UsersIcon, PuzzlePieceIcon  } from '@heroicons/vue/24/solid'
-
 </script>
