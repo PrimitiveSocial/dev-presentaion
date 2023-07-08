@@ -1,7 +1,7 @@
 <template>
     <div class="my-4 px-6 flex gap-8 justify-between">
         <div class="w-1/2 pr-5">
-            <h3 class="capitalize mb-6 bg-gradient-to-r from-sky-900 to-gray-800 bg-opacity-50 px-4 py-3 rounded-lg">Michael Goldberg</h3>
+            <h3 class="capitalize mb-6 bg-gradient-to-r from-sky-900 to-gray-800 bg-opacity-50 px-4 py-3 rounded-lg">Our Favorite Parts of Working as a Developer</h3>
             <div class="flex items-center gap-8">
                 <img src="/michael.png" class="w-32 rounded-full" alt="Michael"/>
                 <ul class="leading-6 list-disc">

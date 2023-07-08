@@ -19,7 +19,7 @@
                 </p>
                 <p class="flex gap-4">
                     <megaphone-icon class="w-6 h-6"></megaphone-icon>
-                    <span>Translating dev talk to none devs</span>
+                    <span>Translating developer talk to non developers</span>
                 </p>
                 <p class="flex gap-4">
                     <language-icon class="w-6 h-6"></language-icon>
@@ -30,9 +30,15 @@
                     <span>Keep up with the ever evolving tech stacks</span>
                 </p>
                 <p class="flex gap-4">
-                    <computer-desktop-icon class="w-6 h-6"></computer-desktop-icon>
+                    <computer-desktop-icon class="w-6 h-6 block"></computer-desktop-icon>
                     <span>Watching QA go to work</span>
                 </p>
+
+              <p class="flex gap-4">
+                <users-icon class="w-12 h-12 text-center"></users-icon>
+                <span>Handle edits and requests from clients that may require us to rebuild the structure or go in an entirely different direction.</span>
+              </p>
+
             </div>
 
         </div>
@@ -52,5 +58,5 @@
 </template>
 
 <script setup>
-import { ClockIcon, NoSymbolIcon, ArrowPathIcon, MegaphoneIcon, CodeBracketIcon, ComputerDesktopIcon, LanguageIcon } from '@heroicons/vue/24/solid'
+import { ClockIcon, NoSymbolIcon, ArrowPathIcon, MegaphoneIcon, CodeBracketIcon, ComputerDesktopIcon, LanguageIcon, UsersIcon } from '@heroicons/vue/24/solid'
 </script>
