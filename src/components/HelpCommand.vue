@@ -64,5 +64,5 @@
 </template>
 
 <script setup>
-import { InformationCircleIcon, UserIcon, CircleStackIcon, EyeSlashIcon, BellSlashIcon, TrophyIcon, UsersIcon, HeartIcon, QuestionMarkCircleIcon } from '@heroicons/vue/24/solid'\
+import { InformationCircleIcon, UserIcon, CircleStackIcon, EyeSlashIcon, BellSlashIcon, TrophyIcon, UsersIcon, HeartIcon, QuestionMarkCircleIcon } from '@heroicons/vue/24/solid'
 </script>
