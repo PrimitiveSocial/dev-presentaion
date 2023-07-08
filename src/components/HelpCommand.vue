@@ -54,8 +54,6 @@
             <span class="text-yellow-400">clear</span>
             <span class="text-gray-400">Clear terminal screen</span>
         </div>
-
-
     </div>
 </template>
 
