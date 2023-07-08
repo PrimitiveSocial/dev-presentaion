@@ -1,6 +1,6 @@
 <template>
     <div class="my-4 px-6 flex gap-8 justify-between">
-        <div class="w-2/5">
+        <div class="w-1/2 pr-5">
             <h3 class="capitalize mb-6 bg-gradient-to-r from-purple-600 to-gray-800 bg-opacity-50 px-4 py-3 rounded-lg">
                 Front-end
             </h3>
@@ -27,7 +27,7 @@
                 <li>We work closely with back-end developers, designers & copy writers. </li>
             </ul>
         </div>
-        <div class="w-2/5">
+        <div class="w-1/2 pl-5">
             <h3 class="capitalize mb-6 bg-gradient-to-r from-purple-600 to-gray-800 bg-opacity-20 px-4 py-3 rounded-lg">
                 Back-end
             </h3>
@@ -35,7 +35,7 @@
                 <p>Handles all the user requests</p>
                 <p>Feeds the browser with data</p>
             </div>
-            <ul class="leading-8 text-sm mt-8 bg-slate-700 p-4 bg-opacity-60 rounded-lg space-y-2">
+          <ul class="leading-6 text-sm mt-8 bg-slate-700 p-4 bg-opacity-60 rounded-lg space-y-2 list-disc pl-8">
                 <li>Uses a server side programing language (PHP)</li>
                 <li>Uses a framework to organize and make his coding experience more enjoyable (Laravel)</li>
                 <li>Architects a database (that's where the data is stored)</li>

@@ -1,6 +1,7 @@
 <template>
+
     <div class="my-4 px-6 flex gap-8 justify-between">
-        <div class="w-2/5">
+        <div class="w-3/5">
             <h3 class="capitalize mb-6 bg-gradient-to-r from-amber-600 to-gray-800 bg-opacity-50 px-4 py-3 rounded-lg">
                 Day to Day
             </h3>
@@ -37,6 +38,8 @@
             </ul>
         </div>
     </div>
+
+
 </template>
 <script setup>
 </script>
