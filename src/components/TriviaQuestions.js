@@ -1,9 +1,9 @@
 export const questions = [
     {
         'question': 'What will counter be equal to?',
-        'answer': '5',
+        'answer': '10',
         'options': [
-            '28',
+            '10',
             '4',
             '5',
             'Type into chatGPT and call it good'
