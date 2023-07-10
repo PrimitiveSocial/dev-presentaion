@@ -59,4 +59,18 @@ export const questions = [
             'isCode': false
         }
     },
+    {
+        'question': 'How many projects has Elie, Michael, and Matthew collaborated on together?',
+        'answer': '1',
+        'options': [
+            '0',
+            '1',
+            '2',
+            '3'
+        ],
+        'module': {
+            'value': 'Collaboration',
+            'isCode': false
+        }
+    },
 ]
