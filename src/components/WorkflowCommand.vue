@@ -40,7 +40,7 @@
             <li> 2. Gather all assets. Images, fonts, content, design.</li>
             <li> 3. Start building the project in our code editor. We also keep in mind where the final site will be viewed. Bind, WordPress, HubSpot. </li>
             <li> 4. Finalize the build, add a userback snippet and submit to internal review. </li>
-            <li> 5. Take care of edits that come through.
+            <li> 5. Take care of edits that come through. </li>
             <li> 6. Once all of the above is completed, we can deploy the site live.</li>
           </ul>
 
