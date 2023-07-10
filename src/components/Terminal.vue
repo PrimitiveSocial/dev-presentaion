@@ -52,7 +52,7 @@ import TeammatesCommand from './TeammatesCommand.vue'
 import ChallengesCommand from './ChallengesCommand.vue'
 import NotFoundCommand from './NotFoundCommand.vue'
 import TriviaComponent from './TriviaComponent.vue'
-import FavoriteCommand from "./FavoriteCommand.vue";
+import FavoritesCommand from "./FavoritesCommand.vue";
 
 const command = ref('')
 const cliInput = ref()
@@ -68,8 +68,7 @@ const availableCommands = [
     { command: 'workflow', component: WorkflowCommand },
     { command: 'day', component: DayCommand },
     { command: 'challenges', component: ChallengesCommand },
-    { command: 'favorites', component: FavoriteCommand },
-    { command: 'favorite', component: FavoriteCommand },
+    { command: 'favorites', component: FavoritesCommand },
     { command: 'teammates', component: TeammatesCommand },
     { command: 'trivia', component: TriviaComponent },
 ]

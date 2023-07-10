@@ -34,13 +34,13 @@
         <div class="flex items-center gap-2">
             <trophy-icon class="w-5 h-5"></trophy-icon>
             <span class="text-yellow-400">challenges</span>
-            <span class="text-gray-400">Share developers wins and struggles</span>
+            <span class="text-gray-400">Share developers struggles</span>
         </div>
 
         <div class="flex items-center gap-2">
           <heart-icon class="w-5 h-5"></heart-icon>
           <span class="text-yellow-400">favorites</span>
-          <span class="text-gray-400">Our favorite parts of development</span>
+          <span class="text-gray-400">Share developers favorite parts of development</span>
         </div>
 
         <div class="flex items-center gap-2">
