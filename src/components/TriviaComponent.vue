@@ -16,7 +16,7 @@
             <h3 class="capitalize mb-6 bg-gradient-to-r from-sky-900 to-gray-800 bg-opacity-20 px-4 py-3 rounded-lg">
               {{ activeQuestion.question }}
             </h3>
-            <ol :class="{'clicked': clicked}" class="leading-8 ml-6 list-[lower-alpha] list-inside" type="a">
+            <ol :class="{'clicked': clicked}" class="leading-8 ml-6 space-y-4 list-[lower-alpha] list-inside" type="a">
                 <li @click="clicked = true" v-for="option in activeQuestion.options" class="cursor-pointer"
                     :class="{'correct-answer': option === activeQuestion.answer, 'hover:text-green-100': !clicked}"
                 >{{ option }}</li>
