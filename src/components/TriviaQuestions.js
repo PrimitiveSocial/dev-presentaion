@@ -1,7 +1,7 @@
 export const questions = [
     {
         'question': 'What will counter be equal to?',
-        'answer': '10',
+        'answer': '5',
         'options': [
             '10',
             '4',
