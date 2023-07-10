@@ -10,6 +10,7 @@
                     <li>13 years in web development</li>
                     <li>Fully remote since 2017</li>
                     <li>Married, father of 2 baby girls</li>
+                    <li>I am a heavy coffee drinker, roll my own cigarettes & love basketball </li>
                 </ul>
             </div>
         </div>
