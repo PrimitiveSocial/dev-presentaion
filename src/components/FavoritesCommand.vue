@@ -34,6 +34,7 @@
             <div class="w-full relative">
                 <ul class="leading-6 p-8 bg-slate-700 bg-opacity-60 rounded-lg space-y-4 pl-8">
                     <li>Creating tools that helps other teammates workflows and efficiency</li>
+                    <li>Gitmojis!</li>
                 </ul>
                 <span class="bg-teal-600 p-1 absolute bottom-2 right-2 text-sm">Elie</span>
             </div>
