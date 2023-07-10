@@ -39,6 +39,13 @@
                 <span class="bg-teal-600 p-1 absolute bottom-2 right-2 text-sm">Elie</span>
             </div>
 
+          <div class="w-full relative">
+            <ul class="leading-6 p-8 bg-slate-700 bg-opacity-60 rounded-lg space-y-4 pl-8">
+              <li>Working with various team members to build something successfully.</li>
+            </ul>
+            <span class="bg-purple-500 p-1 absolute bottom-2 right-2 text-sm">Michael</span>
+          </div>
+
         </div>
 
     </div>

@@ -38,7 +38,7 @@
         <div class="w-1/2 pl-5 relative">
             <ul class="leading-6 p-12 bg-slate-700 bg-opacity-60 rounded-lg space-y-4 list-disc pl-8">
                 <li>Handle edits and requests from clients that may require us to rebuild the structure or go in an entirely different direction.</li>
-                <li>Working and building something in an unfamiliar codebase or project. It can be a challenge when working in unfamiliar territory or something that we've never done before. This part requires us to learn about the functionality, how to best implement it, and make adjustments to fit the needs of the build.</li>
+                <li>Working and building something in an unfamiliar codebase or project. It can sometimes be a challenge when working in unfamiliar territory or something that we've never done before. This requires us to learn about the functionality, how to best implement it, and make adjustments to fit the needs of the build.</li>
             </ul>
             <span class="bg-pink-600 p-1 absolute bottom-2 right-2 text-sm">Michael</span>
         </div>

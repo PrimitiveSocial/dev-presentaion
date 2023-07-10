@@ -26,17 +26,15 @@
                   <em class="py-2 block">Example: Slick Slider for sliders. </em>
                 </li>
 
-                <li> The browser's console / inspector is his best friend. This tool allows us to monitor front end code in real time. We can also make adjustments on the fly and they are visible right away. </li>
-
-              <li>Implement assets: images, videos & fonts </li>
+                <li> The browser's console / inspector is his best friend. This tool allows us to monitor front end code in real time. We can also make adjustments and they are visible to us as soon as we make them.</li>
 
                 <li>Build using responsive support / multi-device support. It’s 2023 and you can expect a website visitor to be using various devices. </li>
 
             </ul>
 
-          <ul class="leading-6 text-sm mt-8 bg-slate-700 p-4 bg-opacity-60 rounded-lg space-y-2 list-disc pl-8">
+          <ul class="leading-6 text-sm mt-8 bg-slate-700 p-4 bg-opacity-60 rounded-lg space-y-2  pl-6">
             <strong>From Start To Finish</strong>
-            <li>  1. Get assigned project via Clickup and take a look at the assets provided to us. This is a time to do time estimates, ask for assets or ask questions.</li>
+            <li> 1. Get assigned project via Clickup and take a look at the assets provided to us. This is a time to do time estimates, ask for assets or ask questions.</li>
             <li> 2. Gather all assets. Images, fonts, content, design.</li>
             <li> 3. Start building the project in our code editor. We also keep in mind where the final site will be viewed. Bind, WordPress, HubSpot. </li>
             <li> 4. Finalize the build, add a userback snippet and submit to internal review. </li>
