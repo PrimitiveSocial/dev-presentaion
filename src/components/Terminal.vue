@@ -53,6 +53,7 @@ import ChallengesCommand from './ChallengesCommand.vue'
 import NotFoundCommand from './NotFoundCommand.vue'
 import TriviaComponent from './TriviaComponent.vue'
 import FavoritesCommand from "./FavoritesCommand.vue";
+import DevsCommand from "./DevsCommand.vue";
 
 const command = ref('')
 const cliInput = ref()
@@ -71,6 +72,7 @@ const availableCommands = [
     { command: 'favorites', component: FavoritesCommand },
     { command: 'teammates', component: TeammatesCommand },
     { command: 'trivia', component: TriviaComponent },
+    { command: 'devs', component: DevsCommand },
 ]
 
 const parseCommand = () => {
