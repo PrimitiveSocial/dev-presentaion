@@ -9,11 +9,11 @@ export const questions = [
             'Type into chatGPT and call it good'
         ],
         'module': {
-            'value': "let counter = 0;\n" +
+            'value': "\nlet counter = 0;\n" +
                     "let i = 0;\n" +
                 "for (let i = 0; i < 5; i++) {\n" +
                 "  counter += i;\n" +
-            "}",
+            "}\n",
             'isCode': true
         }
     },
