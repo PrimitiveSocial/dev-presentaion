@@ -6,6 +6,11 @@
             <span class="text-yellow-400">help</span>
             <span class="text-gray-400">list down all available commands</span>
         </div>
+      <div class="flex items-center gap-2">
+        <code-bracket-icon class="w-5 h-5"></code-bracket-icon>
+        <span class="text-yellow-400">Devs</span>
+        <span class="text-gray-400">The dev team</span>
+      </div>
         <div class="flex items-center gap-2">
             <user-icon class="w-5 h-5"></user-icon>
             <span class="text-yellow-400">matthew</span>
@@ -64,5 +69,5 @@
 </template>
 
 <script setup>
-import { InformationCircleIcon, UserIcon, CircleStackIcon, EyeSlashIcon, BellSlashIcon, TrophyIcon, UsersIcon, HeartIcon, QuestionMarkCircleIcon } from '@heroicons/vue/24/solid'
+import { InformationCircleIcon, UserIcon, CircleStackIcon, EyeSlashIcon, BellSlashIcon, TrophyIcon, UsersIcon, HeartIcon, QuestionMarkCircleIcon, CodeBracketIcon } from '@heroicons/vue/24/solid'
 </script>
